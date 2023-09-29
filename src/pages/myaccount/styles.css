@@ -1,0 +1,46 @@
+.login-tabs .nav-link{
+    font-weight: bold;
+    color:#ccc;
+    border:none !important;
+}
+.login-tabs .nav-link.active{
+    border:none !important;
+    color:#54BAB9 !important;
+  }
+.login-tabs .nav-link:hover,.login-tabs .nav-link:focus-visible{
+    border:none !important;
+}
+form label{
+    /* color:#fff !important; */
+}
+p.error{
+    color:red;
+}
+.custom-input input:focus{
+    outline: 0 !important;
+    box-shadow:none !important;
+}
+.custom-input input,.custom-input .input-group-text{
+    border-radius: 0px;
+    border-color: transparent !important;
+    background-color: transparent !important;
+}
+.custom-input{
+    border:1px solid gray;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 0 0.15rem rgba(59, 58, 58, 0.6);
+}
+.errorInput{
+    border-color: #ff000094;
+    box-shadow: 0 0 0 0.15rem rgb(205 48 55 / 60%);
+}
+.password-toggle input{
+    background-color:#54BAB9 !important;
+}
+
+@media (min-width:768px){
+    .w-md-30{
+        width:30%;
+    }
+}

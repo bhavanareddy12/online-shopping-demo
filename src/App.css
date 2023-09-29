@@ -1,0 +1,35 @@
+html,body,#root{
+  height: 100%;
+}
+body{
+  font-family: 'Roboto', sans-serif !important;
+}
+.color-blue{
+  color:#54BAB9 !important;
+}
+.bg-light-gray{
+  background-color: #eee;
+}
+.border-blue{
+  border-color: #54BAB9;
+}
+.background-blue{
+  background-color: #54BAB9 !important;
+}
+select,.background-trans{
+  border:none !important;
+  background-color: transparent !important;
+}
+select:focus{
+  box-shadow: none !important;
+}
+select option:focus {
+  border:0px;
+  outline:0px;
+  -webkit-appearance: none;
+  outline: none;      
+}
+.cursor-pointer{
+  cursor:pointer;
+}
+
